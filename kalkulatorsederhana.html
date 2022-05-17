@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kalkulator sederhana</title>
+        <script language="javascript">
+        function tambah(){
+            x=eval(document.kalk.value1.value)
+            y=avel(document.kalk.value2.value)
+            alert("Hasil dari"+ x +"+"+ y +"=" +(x+y));
+        }
+
+        function kurang(){
+            x=eval(document.kalk.value1.value)
+            y=avel(document.kalk.value2.value)
+            alert("Hasil dari"+ x +"-"+ y +"=" +(x-y));
+
+        }
+        
+        function kali(){
+            x=eval(document.kalk.value1.value)
+            y=avel(document.kalk.value2.value)
+            alert("Hasil dari"+ x +"*"+ y +"=" +(x*y));
+
+        }
+
+        function bagi(){
+            x=eval(document.kalk.value1.value)
+            y=avel(document.kalk.value2.value)
+            alert("Hasil dari"+ x +"/"+ y +"=" +(x/y));
+
+        }
+</script>
+    </head>  
+    <body>
+        <form nama="kalk" method="post">
+
+            <input type="inputbox"value="" nama="value1"><br/>
+            <br>
+
+            <input type="inputbox"value="" nama="value2"><br/>
+            <br>
+
+             <input type="button" value="+"onclich="tambah();">
+             <input type="button" value="-"onclich="kurang();">
+             <input type="button" value="*"onclich="kali();">
+             <input type="button" value="/"onclich="bagi();">
+        </form>
+    </body>
+</html>
+ m
